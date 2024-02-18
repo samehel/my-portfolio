@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -68,4 +69,25 @@ html {
 
 .fade-img {
   mask-image: linear-gradient(#000, rgba(0, 0, 0, 0));
+}
+
+.space-mono-bold-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+  font-size: large;
+}
+
+.space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: large;
+}
+
+.space-mono-bold {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+  font-size: large;
 }

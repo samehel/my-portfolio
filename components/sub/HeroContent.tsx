@@ -5,6 +5,7 @@ import { motion } from 'framer-motion'
 import { slideInFromLeft, slideInFromRight, slideInFromTop } from '@/utils/motion'
 import { SparklesIcon } from '@heroicons/react/24/solid'
 import Image from 'next/image';
+import Typewriter from 'typewriter-effect';
 
 const HeroContent = () => {
   return (
@@ -31,14 +32,31 @@ const HeroContent = () => {
                 variants={slideInFromLeft(0.5)}
                 className='flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto'
                 >
-                    <span>
-                        I 
-                        <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'>
-                            {" "}
-                            excel{" "}
-                            </span> 
-                        in Software development.
-                    </span>
+                    <Typewriter
+                    options={{
+                        autoStart: true,
+                        loop: true
+                    }}
+                    onInit={(typewriter) => {
+                        typewriter.typeString(`<span>I <span style="background-color: red; background-image: linear-gradient(45deg, purple, cyan); background-size: 100%; background-repeat: repeat; -webkit-background-clip: text; -webkit-text-fill-color: transparent; -moz-background-clip: text; -moz-text-fill-color: transparent;">excel</span> in Software development.</span>`)
+                        .pauseFor(2500)
+                        .deleteAll()
+                        .typeString(`<span>Code. Elevate. <span style="background-color: red; background-image: linear-gradient(45deg, purple, cyan); background-size: 100%; background-repeat: repeat; -webkit-background-clip: text; -webkit-text-fill-color: transparent; -moz-background-clip: text; -moz-text-fill-color: transparent;">Excel.</span></span>`)
+                        .pauseFor(2500)
+                        .deleteAll()
+                        .typeString(`<span>Crafting <span style="background-color: red; background-image: linear-gradient(45deg, purple, cyan); background-size: 100%; background-repeat: repeat; -webkit-background-clip: text; -webkit-text-fill-color: transparent; -moz-background-clip: text; -moz-text-fill-color: transparent;">Exceptional </span>Code Experiences.</span>`)
+                        .pauseFor(2500)
+                        .deleteAll()
+                        .typeString(`<span>Sculpting <span style="background-color: red; background-image: linear-gradient(45deg, purple, cyan); background-size: 100%; background-repeat: repeat; -webkit-background-clip: text; -webkit-text-fill-color: transparent; -moz-background-clip: text; -moz-text-fill-color: transparent;">Superior </span>Software Experiences.</span>`)
+                        .pauseFor(2500)
+                        .deleteAll()
+                        .typeString(`<span>Refining Software, <span style="background-color: red; background-image: linear-gradient(45deg, purple, cyan); background-size: 100%; background-repeat: repeat; -webkit-background-clip: text; -webkit-text-fill-color: transparent; -moz-background-clip: text; -moz-text-fill-color: transparent;">Elevating </span>Experiences.</span>`)
+                        .pauseFor(2500)
+                        .deleteAll()
+                        .start()             
+                    }}>
+
+                    </Typewriter>
                     </motion.div>
 
                     <motion.p 
