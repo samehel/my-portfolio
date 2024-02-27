@@ -191,3 +191,66 @@ export const Database_skill = [
       height: 55,
     },
   ];
+
+  export const My_Projects = [
+    {
+      project_name: "My Portfolio Website",
+      description: "This website has been developed using Next.js, React, Framer-motion,\nand tailwind css. It serves the purpose of displaying my skills and abilities when it comes to backend software engineering while also providing a way to contact me.",
+      Image: "/my_portfolio.png",
+      link: "https://github.com/samehel/my-portfolio"
+    },
+    {
+      project_name: "My Portfolio Website",
+      description: "This website has been developed using Next.js, React, Framer-motion\nand tailwind css. It serves the purpose of displaying my skills and abilities when it comes to backend software engineering while also providing a way to contact me.",
+      Image: "/my_portfolio.png",
+      link: "https://github.com/samehel/my-portfolio"
+    },
+    {
+      project_name: "My Portfolio Website",
+      description: "This website has been developed using Next.js, React, Framer-motion,\nand tailwind css. It serves the purpose of displaying my skills and abilities when it comes to backend software engineering while also providing a way to contact me.",
+      Image: "/NextWebsite.png",
+      link: "https://github.com/samehel/my-portfolio"
+    },
+    {
+      project_name: "My Portfolio Website",
+      description: "This website has been developed using Next.js, React, Framer-motion,\nand tailwind css. It serves the purpose of displaying my skills and abilities when it comes to backend software engineering while also providing a way to contact me.",
+      Image: "/NextWebsite.png",
+      link: "https://github.com/samehel/my-portfolio"
+    },
+    {
+      project_name: "My Portfolio Website",
+      description: "This website has been developed using Next.js, React, Framer-motion, \n tailwind css. It serves the purpose of displaying my skills and abilities when it comes to backend software engineering while also providing a way to contact me.",
+      Image: "/NextWebsite.png",
+      link: "https://github.com/samehel/my-portfolio"
+    },
+    {
+      project_name: "My Portfolio Website",
+      description: "This website has been developed using Next.js, React, Framer-motion,\nand tailwind css. It serves the purpose of displaying my skills and abilities when it comes to backend software engineering while also providing a way to contact me.",
+      Image: "/NextWebsite.png",
+      link: "https://github.com/samehel/my-portfolio"
+    },
+    {
+      project_name: "My Portfolio Website",
+      description: "This website has been developed using Next.js, React, Framer-motion,\nand tailwind css. It serves the purpose of displaying my skills and abilities when it comes to backend software engineering while also providing a way to contact me.",
+      Image: "/NextWebsite.png",
+      link: "https://github.com/samehel/my-portfolio"
+    },
+    {
+      project_name: "My Portfolio Website",
+      description: "This website has been developed using Next.js, React, Framer-motion,\nand tailwind css. It serves the purpose of displaying my skills and abilities when it comes to backend software engineering while also providing a way to contact me.",
+      Image: "/NextWebsite.png",
+      link: "https://github.com/samehel/my-portfolio"
+    },
+    {
+      project_name: "My Portfolio Website",
+      description: "This website has been developed using Next.js, React, Framer-motion, \n tailwind css. It serves the purpose of displaying my skills and abilities when it comes to backend software engineering while also providing a way to contact me.",
+      Image: "/NextWebsite.png",
+      link: "https://github.com/samehel/my-portfolio"
+    },
+    {
+      project_name: "My Portfolio Website",
+      description: "This website has been developed using Next.js, React, Framer-motion,\nand tailwind css. It serves the purpose of displaying my skills and abilities when it comes to backend software engineering while also providing a way to contact me.",
+      Image: "/NextWebsite.png",
+      link: "https://github.com/samehel/my-portfolio"
+    },
+  ]

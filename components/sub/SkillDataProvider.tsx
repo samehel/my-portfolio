@@ -51,7 +51,7 @@ const SkillDataProvider = ({ src, width, height, index, skillInfo } : Props)  =>
                     alt='skill image'
                     className='transform 
                     transition duration-500 
-                    hover:scale-150'
+                    hover:scale-150 cursor-pointer'
                     />
                 </div>
                 {showPopup && <Popup onClose={handleClosePopup} skillInfo={skillInfo}/>}
