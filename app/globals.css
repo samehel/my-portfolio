@@ -8,6 +8,7 @@
 .cursive {
   font-family: "Cedarville Cursive", cursive;
 }
+
 .Welcome-text {
   background: linear-gradient(
       0deg,
@@ -141,22 +142,14 @@ html {
 }
 
 .embla {
-  overflow: hidden;
+   overflow:  hidden;
 }
 .embla__container {
   display: flex;
   margin: 0 -10px; 
   padding: 10px;
-  animation: scroll 30s linear infinite; 
-}
-
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%); /* Adjust the percentage based on the number of slides */
-  }
+  z-index: 4;
+  animation: transform 1s ease; 
 }
 
 .embla__slide {

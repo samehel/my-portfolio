@@ -1,7 +1,7 @@
 "use client";
 
 import { slideInFromLeft, slideInFromRight, slideInFromTop } from '@/utils/motion'
-import { ComputerDesktopIcon } from '@heroicons/react/24/solid'
+import { SparklesIcon } from '@heroicons/react/24/solid'
 import { motion } from 'framer-motion'
 import React from 'react'
 
@@ -12,7 +12,7 @@ const SkillText = () => {
         variants={slideInFromTop}
         className='Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]'
         >
-            <ComputerDesktopIcon className='text-[#b49bff] mr-[10px] h-5 w-5'/>
+            <SparklesIcon className='text-[#b49bff] mr-[10px] h-5 w-5'/>
             <h1 className='Welcome-text text-[13px]'>
                 Advance thinking through sophisticated code
             </h1>

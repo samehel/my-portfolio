@@ -62,7 +62,7 @@ const Skills = () => {
         </div>
         </div>
 
-        <div className='w-full h-full z-[-10] absolute'>
+        <div className='w-full h-full z-[-10] absolute py-[107px]'>
             <div className='w-full h-full opacity-30 absolute flex items-center justify-center bg-cover'>
                 <video 
                 className='w-full h-auto'
@@ -71,7 +71,7 @@ const Skills = () => {
                 loop
                 muted
                 autoPlay
-                src='/cards-video.webm'
+                src='/encryption.webm'
                 />
             </div>
         </div>

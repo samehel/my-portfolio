@@ -21,6 +21,7 @@ const ProjectCard = ({ src, title, description, link }: Props) => {
           width={500}
           height={500}
           className='w-full object-contain'
+          loading='lazy'
           />
           <div className='relative p-4'>
               <h1 className='text-2xl font-semibold text-white'>{title}</h1>
